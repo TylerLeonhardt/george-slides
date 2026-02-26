@@ -87,6 +87,31 @@ George isn't a chatbot — he's a **CTO with an engineering team**
 
 ---
 transition: slide-left
+layout: two-cols
+layoutClass: gap-4
+---
+
+# The Dashboard
+
+Real-time visibility into what the team is doing
+
+<v-clicks>
+
+- **Kanban view** — jobs flow through queued → running → completed/failed
+- **Office view** — George as CTO, agents at project desks with codenames
+- Auto-refreshing, built by agents, for watching agents
+
+</v-clicks>
+
+::right::
+
+<div class="pt-4">
+  <img src="/dashboard-kanban.png" class="rounded shadow-lg mb-4" style="max-height: 280px" />
+  <img src="/dashboard-office.png" class="rounded shadow-lg" style="max-height: 280px" />
+</div>
+
+---
+transition: slide-left
 layout: center
 ---
 
@@ -119,23 +144,21 @@ Zero lines of code written by hand since Saturday
 transition: slide-left
 ---
 
-# The Vision
-
-Where we're going:
+# What We've Already Unlocked
 
 <v-clicks>
 
-- **Phase 3** *(current)* — Proactive George: notifications, self-healing
-- **Phase 4** — Vibes-to-specs: *"this feels wrong"* → engineering work
-- **Phase 5** — Greenfield: *"I want a website"* → scaffold → preview → iterate
-- **Phase 6** — Ship it: *"put it on my domain"* → deploy, DNS, CI/CD
+- ✅ **Vibes → engineering** — *"the Office view called me CEO"* → George dispatched agents to fix it
+- ✅ **Greenfield from chat** — *"make me slides"* → George created this repo, scaffolded Slidev, built it, pushed it
+- ✅ **Visual feedback** — Playwright screenshots & video → sent directly to Telegram
+- ✅ **Self-managing teams** — agents review each other's PRs, check CI, merge when green
 
 </v-clicks>
 
 <v-click>
 
-<div class="pt-8 text-2xl font-bold text-teal-400">
-Tell your CTO what you want. The engineering team builds it.
+<div class="pt-6 text-xl text-gray-400">
+What's next: proactive George (notices problems before you do), deploy from chat, full project lifecycle from conversation
 </div>
 
 </v-click>
